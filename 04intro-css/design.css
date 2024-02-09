@@ -1,0 +1,117 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* Header Stuff Here */
+header {
+    color: #F2F2F2;
+    background-color: #0D0D0D;
+    padding: .5rem .5vw;
+}
+header h1 {
+    margin: 0;
+    color: #F2F2F2;
+}
+header p {
+    margin: 0;
+    color: #F2F2F2;
+    letter-spacing: 1.4px; 
+}
+
+/* nav stuff goes here */
+nav {
+    background-color: #BDBFBF;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 .5vw;
+    margin: 2vw;
+    display: flex;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #0D0D0D;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 1rem;
+}
+nav li.active a {
+    background-color: #475459;
+    color: #F2F2F2;
+}
+nav a:hover {
+    color: #F2F2F2;
+}
+
+
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #0D0D0D;
+    font-size: 2rem;
+}
+main h2 {
+    color: #475459;
+    margin-bottom: .2rem; 
+}
+main p {
+    color: #0D0D0D;
+    margin-bottom: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #BDBFBF;
+}
+main dl dt {
+    color: #0D0D0D;
+    font-weight: 700;
+}
+main dl dd {
+    color: #0D0D0D;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type:circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #93B7BF;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #024873;
+    border-radius: .5rem;
+}
+main a {
+    color: #0D0D0D;
+}
+main a:hover {
+    color: #93B7BF;
+}
+
+
+/* Footer Stuff Here */
+footer {
+    background-color: #0D0D0D;
+    text-align: center;
+    color: #F2F2F2;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+footer a {
+    color: #F2F2F2;
+}
