@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>VacationPro.com</title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Find your dream place to stay">
+        <meta name="author" content="Brittany Thompson">
+        <link rel="stylesheet" href="design.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Start of the page header-->
+        <header>
+        <h1>VacationPro.com</h1>
+        <h2>Lets go places</h2>
+        </header>
+
+        <!-- Start of the Nav-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Start of the main content-->
+        <main>
+            <h1>Contact Us</h1>
+            <form method="get" class="myForm" action="thanks.html">
+           
+                <fieldset>
+            <legend>Contact Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Phone Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label> 
+            <label>Email*<input type="email" name="email" required placeholder="sarah@gmail.com"></label>
+                </fieldset>
+                
+                
+                
+                
+                <fieldset>
+                <legend>Trip Destinations</legend>
+                    <label><Input type="radio" name="method" value="bali"> Bali, Indonesia </Input></label>
+                    
+                    <label><Input type="radio" name="method" value="honolulu"> Honolulu, Hawaii </Input></label> 
+                    
+                     <label><Input type="radio" name="method" value="mexico"> Mexico City, Mexico </Input></label>
+                    
+                    <label> <Input type="radio" name="method" value="st.lucia"> St. Lucia </Input></label>
+                    
+                    <label><Input type="radio" name="method" value="phuket"> Phuket, Thailand </Input> </label>
+                    
+                     <label><Input type="radio" name="method" value="mumbai"> Mumbai, India </Input></label>
+                </fieldset>
+                
+                
+                
+                
+                <fieldset>
+                <legend>How Can We Help?</legend>
+                <label><input type="checkbox" name="inquiry" value="chosen">Trip Inquiry</label>
+                    
+                <label><input type="checkbox" name="book" value="chosen">Book Trip</label>
+                    
+                <label><input type="checkbox" name="help" value="chosen">Customer Help</label>
+                
+                    
+                    
+                    
+                <label>
+                <select name="time"> 
+                <option value="none">Preferred Contact Method</option>    
+                    <option value="none">Call</option>
+                    <option value="none">Email</option>    
+                    <option value="none">Text</option>
+                </select>    
+                </label>
+                    
+                <label>
+                    <textarea name="comments">Add Additional Information Here</textarea>
+                 </label>
+                </fieldset>
+            
+            <input type="submit" value="Book Your Trip Now">
+            </form>
+        </main>
+
+        <!-- Start of the footer -->
+        <footer>
+            <p>&copy; 2024 &bull; Brittany Thompson &bull; <a href="mailto:brittanythompson@gmail.com">Email Us</a></p>
+        </footer>
+        
+    </body>
+</html>
